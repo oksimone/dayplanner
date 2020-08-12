@@ -4,7 +4,7 @@
 Woohoo! I've completed assignment number 5 of my full-stack Bootcamp program! For this assignment, I had to make a day planner that allows the user to enter an event and saves it to the local storage. Also, each of the time blocks should be color-coded to indicate whether it's in the past(grey), present(red), future(green)! I feel pretty good completing this assignment. I'm still trying to get the hang of jquery and understanding how functions work. Below are screenshots of how I proceeded with completing this assignment.
 
 - the first screenshot is what my planner looks like before I start coding the planner.
-![screenshot1]("assets/screenshot 4.png")
+![screenshot1](assets/screenshot 4.png)
 
 - In screenshot two, I've started to code the table. It sort of matches the demo. I added color for the save button and added the 9 am hour to my div
 - In the third screenshot, I added the rest of the hours and the color blue to the rest of my save buttons
