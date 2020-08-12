@@ -35,8 +35,14 @@ $("#des-17").val(localStorage.getItem("des-17"))
 function timeCheck(){
     $(".description").each(function(){
         var timeBlock = $(this).attr("id").split("-")[1]
-        if(timeBlock <currentTime){
-            $("timeBlock").addClass("past");
+        if(timeBlock < currentTime){
+            $(".description").addClass("past");
+        } else if (timeBlock === currentTime){
+            $(".description").removeClass = "past";
+            $(".description").addClass = "current"
+        }else {
+            $(".description").removeClass = "current";
+            $(".description").addClass = "future"
         }
         //compare timeBlock to currentTime
         //If timeBlock < currentTime -> past (addClass)
@@ -45,4 +51,6 @@ function timeCheck(){
 
     })
 }
-    //update color every one minutenut by using setinterval to call the timeCheck function
+    //update color every one minute by using setinterval to call the timeCheck function
+timeCheck()
+var interval = setInterval(timeCheck, 60 * 1000)
