@@ -19,7 +19,7 @@ Woohoo! I've completed assignment number 5 of my full-stack Bootcamp program! Fo
     ![](assets/screenshot%204.png)
    
 -Final screenshot!
-![](assets/screenshot%20final.png)
+![](assets/final.png)
 - In the final screenshot, with my tutor's help, I was able to understand how to code the local storage for my description
     - my tutor also helped me set up a time check function for my time block conditions
     - and then to finish off, my tutor told me that I needed to add a setInterval and call my timecheck function!
